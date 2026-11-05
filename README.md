@@ -21,8 +21,21 @@ Después visita http://127.0.0.1:5500.
 
 Las fuentes DM Sans y Manrope se cargan desde Google Fonts. Si no hay conexión, el sitio utiliza las fuentes del sistema. El contenido y las imágenes están disponibles localmente.
 
-## Publicar
+## Publicar en GitHub Pages
 
-Sube `index.html`, `index.css`, `index.js` y la carpeta `assets` a la raíz del alojamiento estático. Las rutas relativas son compatibles con GitHub Pages y su subdirectorio `/Portafolio/`.
+Repositorio: https://github.com/DanyCabrera/mywebsitedanycabrera
+
+Dirección del sitio después de activar Pages: https://danycabrera.github.io/mywebsitedanycabrera/
+
+1. Abre **Settings → Pages** en el repositorio.
+2. En **Build and deployment → Source**, selecciona **Deploy from a branch**.
+3. Selecciona la rama **main** y la carpeta **/ (root)**, y pulsa **Save**.
+4. Espera a que termine **pages build and deployment** en la pestaña **Actions**.
+
+Los siguientes cambios publicados en `main` actualizarán automáticamente el sitio. No necesitas Node.js, npm ni un comando de compilación.
+
+Mantén `index.html`, `index.css`, `index.js`, `.nojekyll` y la carpeta `assets` en la raíz. Las rutas relativas funcionan dentro de `/mywebsitedanycabrera/`. El archivo `.nojekyll` indica que el contenido debe servirse como archivos estáticos, sin procesamiento de Jekyll.
+
+Si ves una versión anterior después de completar el despliegue, recarga con **Ctrl + F5**. Si aparece un 404, revisa que Pages use `main` y `/ (root)`.
 
 El contenido se actualizó a partir del CV facilitado en noviembre de 2026. Convention incluye enlaces a su aplicación y al repositorio. Los otros proyectos muestran detalles desplegables.
