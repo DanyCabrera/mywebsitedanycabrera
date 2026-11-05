@@ -2,16 +2,6 @@
 
 Sitio estático en HTML, CSS y JavaScript, sin frameworks ni proceso de compilación.
 
-## Abrir localmente
-
-Abre `index.html` en un navegador. Para probar todas las funciones, incluida la copia al portapapeles, inicia un servidor local desde esta carpeta:
-
-```sh
-python -m http.server 5500 --bind 127.0.0.1
-```
-
-Después visita http://127.0.0.1:5500.
-
 ## Archivos
 
 - `index.html`: contenido, proyectos y trayectoria.
@@ -24,8 +14,6 @@ Las fuentes DM Sans y Manrope se cargan desde Google Fonts. Si no hay conexión,
 ## Publicar en GitHub Pages
 
 Repositorio: https://github.com/DanyCabrera/mywebsitedanycabrera
-
-Dirección del sitio después de activar Pages: https://danycabrera.github.io/mywebsitedanycabrera/
 
 1. Abre **Settings → Pages** en el repositorio.
 2. En **Build and deployment → Source**, selecciona **Deploy from a branch**.
